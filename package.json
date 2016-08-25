@@ -1,0 +1,15 @@
+{
+  "name": "node-aac",
+  "version": "1.0.0",
+  "description": "Native bindings for the fdk-aac package",
+  "main": "index.js",
+  "scripts": {
+    "install": "node-gyp rebuild"
+  },
+  "gypfile": true,
+  "license": "MIT",
+  "dependencies": {
+    "bindings": "^1.2.1",
+    "nan": "^2.2.9"
+  }
+}
