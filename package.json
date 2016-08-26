@@ -4,8 +4,8 @@
   "description": "Native bindings for the fdk-aac package",
   "main": "index.js",
   "scripts": {
-    "preinstall": "scripts/setup.sh",
-    "install": "scripts/build.sh"
+    "preinstall": "sh ./scripts/setup.sh",
+    "install": "sh ./scripts/build.sh"
   },
   "gypfile": true,
   "license": "MIT",
