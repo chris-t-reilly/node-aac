@@ -15,8 +15,7 @@
 	   'conditions': [
         ['OS=="mac"', {
           'libraries': [
-            '-Wl,-force_load,<(module_root_dir)/build/$(BUILDTYPE)/fdk-aac.a',
-			'-lssl'
+            '-Wl,-force_load,<(module_root_dir)/build/$(BUILDTYPE)/fdk-aac.a'
           ],
           'xcode_settings': {
             'OTHER_LDFLAGS': [
