@@ -10,6 +10,8 @@
 - python (2.7.x)
 - https://github.com/felixrieseberg/windows-build-tools
 
+`npm install node-aac`
+
 # changelog
 <a name="1.0.0"></a>
 # 1.0.0 (2016-09-29)
