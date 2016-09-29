@@ -2,6 +2,14 @@
   "name": "node-aac",
   "version": "1.0.0",
   "description": "Native bindings for the fdk-aac package",
+	"repository": {
+		"type" : "git",
+  	"url" : "https://github.com/chris-t-reilly/node-aac.git"
+	},
+	"bugs": {
+		"url" : "https://github.com/chris-t-reilly/node-aac/issues",
+		"email" : "chris.tiberius.reilly@gmail.com"
+	},
   "main": "index.js",
   "scripts": {
     "install": "node-gyp rebuild"
